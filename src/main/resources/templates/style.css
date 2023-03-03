@@ -1,0 +1,62 @@
+body
+    {
+        background-color: #303030;
+        color: #ffffff;
+    }
+
+#container
+    {
+        width: 2000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.rectangle
+    {
+        width: 1900px;
+        margin: 50px;
+    }
+#name
+    {
+        font-size: 50px;
+        height: 10px;
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+#link
+    {
+        width: 50%;
+        float: left;
+        font-size: 50px;
+        margin-top: 35px;
+    }
+a:link, a:visited
+    {
+        color: white;
+        text-decoration: none;
+        padding: 50px;
+    }
+
+a:hover
+    {
+        color: grey;
+    }
+
+#square
+    {
+        width: 50%;
+        float: left;
+        margin-top: 150px;
+    }
+img
+    {
+        width: 550px;
+    }
+
+p
+    {
+        font-size: 50px;
+        text-align: center;
+    }
+
