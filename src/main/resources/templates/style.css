@@ -8,10 +8,73 @@ body
         width: 1800px;
         height: 915px;
         margin: auto;
-
-
         border-style: solid;
         border-color: #303030;
+    }
+.main
+    {
+        width: 750px;
+        height: 910px;
+        margin-left: 100px;
+    }
+input
+    {
+        margin-top: 15px;
+        text-align: center;
+        width: 700px;
+        height: 75px;
+        font-size: 50px;
+        font-family: 'Dosis';
+        background-color: #404040;
+        border-style: solid;
+        border-color: black;
+
+    }
+input::placeholder
+    {
+        color: #262626;
+        font-size: 70px;
+        text-align: center;
+        font-family: 'Dosis';
+    }
+button
+    {
+        margin-left: 225px;
+        margin-top: 20px;
+        width: 250px;
+        height:75px;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Dosis';
+        color: #262626;
+        background-color: #404040;
+    }
+button:hover, input:hover, textarea:hover
+    {
+        background-color: #595959;
+    }
+button:active
+    {
+        background-color: #8c8c8c;
+    }
+
+textarea
+    {
+        background-color: #404040;
+        margin-top: 15px;
+        width: 700px;
+        height: 400px;
+        font-size: 40px;
+        float: left;
+        font-family: 'Dosis';
+        resize: none;
+        border-style: solid;
+        border-color: black;
+    }
+textarea::placeholder
+    {
+        color: #262626;
+        text-align:center;
     }
 #name
     {
@@ -82,8 +145,7 @@ a:hover
         width: 900px;
         height: 650px;
 
-        border-style: solid;
-        border-color: white;
+
     }
 #tile1
     {
@@ -92,14 +154,23 @@ a:hover
         float: left;
         text-align: center;
 
+    }
+#project
+    {
+        width: 895px;
+        height: 60px;
+        float: left;
+        text-align: center;
         border-style: solid;
         border-color: white;
     }
 #tile2
     {
-        width: 200px;
-        height: 365px;
+        width: 294px;
+        height: 292px;
         float: left;
+        border-style: solid;
+        border-color: white;
     }
 #foot
     {
@@ -117,10 +188,19 @@ img
         width: 400px;
         height: 550px;
     }
+pro
+    {
+        font-family: 'Dosis';
+        font-size: 50px;
+    }
 tx
     {
         font-family: 'Dosis';
         font-size: 20px;
+    }
+cz
+    {
+        font-size: 200px;
     }
 
 
