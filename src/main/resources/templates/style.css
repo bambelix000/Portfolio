@@ -11,6 +11,11 @@ body
         border-style: solid;
         border-color: #303030;
     }
+.flaga
+    {
+        float: right;
+        width: 65px;
+    }
 .return
     {
         float: left;
@@ -188,7 +193,7 @@ a:hover
         border-style: solid;
         border-color: white;
     }
-img
+.foto
     {
         margin-left: 75px;
         width: 400px;
