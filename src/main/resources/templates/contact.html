@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+
+    <link rel = "stylesheet" href= "style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Shantell+Sans&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="main">
+            <form action="http://localhost:8080"  target="_self" method="post">
+
+                <input name="fromEmail" type="email" placeholder="E-mail" required>
+
+                <input name="subject" type="text" placeholder= "Tytuł" maxlength="30" required>
+
+                 <textarea name="body" placeholder= "Wiadomość" maxlength="312" class="body" required></textarea>
+
+                <button type ="submit" onclick="setTimeout('close()', 1000);">WYŚLIJ</button>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

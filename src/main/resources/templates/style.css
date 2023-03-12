@@ -1,35 +1,102 @@
 body
     {
         background-color: #303030;
-        color: #ffffff;
+        color: white;
     }
-
 #container
     {
-        width: 2000px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 1800px;
+        height: 915px;
+        margin: auto;
+        border-style: solid;
+        border-color: #303030;
+    }
+.main
+    {
+        width: 750px;
+        height: 910px;
+        margin-left: 100px;
+    }
+input
+    {
+        margin-top: 15px;
+        text-align: center;
+        width: 700px;
+        height: 75px;
+        font-size: 50px;
+        font-family: 'Dosis';
+        background-color: #404040;
+        border-style: solid;
+        border-color: black;
+
+    }
+input::placeholder
+    {
+        color: #262626;
+        font-size: 70px;
+        text-align: center;
+        font-family: 'Dosis';
+    }
+button
+    {
+        margin-left: 225px;
+        margin-top: 20px;
+        width: 250px;
+        height:75px;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Dosis';
+        color: #262626;
+        background-color: #404040;
+    }
+button:hover, input:hover, textarea:hover
+    {
+        background-color: #595959;
+    }
+button:active
+    {
+        background-color: #8c8c8c;
     }
 
-.rectangle
+textarea
     {
-        width: 1900px;
-        margin: 50px;
+        background-color: #404040;
+        margin-top: 15px;
+        width: 700px;
+        height: 400px;
+        font-size: 40px;
+        float: left;
+        font-family: 'Dosis';
+        resize: none;
+        border-style: solid;
+        border-color: black;
+    }
+textarea::placeholder
+    {
+        color: #262626;
+        text-align:center;
     }
 #name
     {
-        font-size: 50px;
-        height: 10px;
+        height: 100px;
         width: 50%;
         float: left;
+        margin-top: 25px;
+        margin-left: 2.5px;
+
+        font-family: 'Tilt Prism';
+        font-size: 55px;
         text-align: center;
     }
+
 #link
     {
-        width: 50%;
-        float: left;
+        height: 100px;
+        width: 49%;
+        font-family: 'Shantell Sans';
         font-size: 50px;
-        margin-top: 35px;
+        float: left;
+        margin-top: 25px;
     }
 a:link, a:visited
     {
@@ -37,26 +104,106 @@ a:link, a:visited
         text-decoration: none;
         padding: 50px;
     }
-
 a:hover
     {
         color: grey;
     }
 
-#square
+#rectangle
     {
-        width: 50%;
+        width: 1700px;
+        height: 150px;
+        margin: 40px;
+    }
+
+#square1
+    {
         float: left;
-        margin-top: 150px;
+        margin-left: 175px;
+
+        width: 600px;
+        height: 675px;
+    }
+#foto
+    {
+        width: 550px;
+        margin-left: 25px;
+        height: 550px;
+    }
+#opis
+    {
+        width: 550px;
+        height: 100px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+#square2
+    {
+        margin-left: 50px;
+        float: left;
+        width: 900px;
+        height: 650px;
+
+
+    }
+#tile1
+    {
+        width: 444px;
+        height: 250px;
+        float: left;
+        text-align: center;
+
+    }
+#project
+    {
+        width: 895px;
+        height: 60px;
+        float: left;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+    }
+#tile2
+    {
+        width: 294px;
+        height: 292px;
+        float: left;
+        border-style: solid;
+        border-color: white;
+    }
+#foot
+    {
+        width: 894px;
+        height: 25px;
+        float: left;
+        text-align: center;
+
+        border-style: solid;
+        border-color: white;
     }
 img
     {
-        width: 550px;
+        margin-left: 75px;
+        width: 400px;
+        height: 550px;
+    }
+pro
+    {
+        font-family: 'Dosis';
+        font-size: 50px;
+    }
+tx
+    {
+        font-family: 'Dosis';
+        font-size: 20px;
+    }
+cz
+    {
+        font-size: 200px;
     }
 
-p
-    {
-        font-size: 50px;
-        text-align: center;
-    }
+
+
+
 
