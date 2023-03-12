@@ -15,18 +15,20 @@
 <body>
     <div id="container">
         <div class="main">
-            <form action="http://localhost:8080"  target="_self" method="post">
+            <form action="https://formspree.io/f/xqkolbwj"  target="_self" method="post">
 
-                <input name="fromEmail" type="email" placeholder="E-mail" required>
+                <input name="fromEmail" type="email" placeholder="Twój email" required>
 
                 <input name="subject" type="text" placeholder= "Tytuł" maxlength="30" required>
 
                  <textarea name="body" placeholder= "Wiadomość" maxlength="312" class="body" required></textarea>
 
-                <button type ="submit" onclick="setTimeout('close()', 1000);">WYŚLIJ</button>
+                <button type ="submit" onclick="setTimeout('close()', 1);">WYŚLIJ</button>
 
             </form>
-
+        </div>
+        <div class ="return">
+            <a href = "index.html"><button type ="submit">Powrót</button></a>
         </div>
     </div>
 </body>
