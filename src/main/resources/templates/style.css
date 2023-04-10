@@ -11,7 +11,12 @@ body
         border-style: solid;
         border-color: #303030;
     }
-.flaga
+.projects
+    {
+        width: 294px;
+        height: 292px;
+    }
+.flag
     {
         float: right;
         width: 65px;
@@ -113,7 +118,7 @@ a:link, a:visited
     {
         color: white;
         text-decoration: none;
-        padding: 50px;
+
     }
 a:hover
     {
@@ -211,7 +216,7 @@ tx
     }
 cz
     {
-        font-size: 200px;
+        padding: 50px;
     }
 
 
